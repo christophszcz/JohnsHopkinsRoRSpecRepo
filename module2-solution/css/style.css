@@ -1,3 +1,32 @@
-.title {
+body {
+  font-family: "Arial";
+}
+
+.main-title {
   text-align: center;
+}
+
+.box{
+  background-color: grey;
+  border-style: solid;
+}
+
+.title {
+  border-style: solid;
+}
+
+.chicken {
+  background-color: pink;
+}
+
+.beef {
+  background-color: red;
+}
+
+.white {
+  color: #fff;
+}
+
+.sushi {
+  background-color: yellow;
 }
