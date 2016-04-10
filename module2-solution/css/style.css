@@ -13,6 +13,11 @@ body {
   width: 30%;
 }
 
+.space {
+  float: left;
+  width: 4%;
+}
+
 .title {
   border-style: solid;
 }
