@@ -9,6 +9,8 @@ body {
 .box{
   background-color: grey;
   border-style: solid;
+  float: left; 
+  width: 30%;
 }
 
 .title {
