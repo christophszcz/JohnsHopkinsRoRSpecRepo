@@ -23,6 +23,7 @@ body {
 
 .title-text {
   font-size: 125%;
+  margin-top: 0px;
 }
 
 .space {
@@ -40,15 +41,14 @@ body {
   border-left-width: 3px;
   border-top-width: 0px;
   border-right-width: 0px;
-
 }
 
 .chicken {
-  background-color: pink;
+  background-color: #F08080 ;
 }
 
 .beef {
-  background-color: red;
+  background-color: #A52A2A;
 }
 
 .white {
@@ -56,7 +56,7 @@ body {
 }
 
 .sushi {
-  background-color: yellow;
+  background-color: #FAFAD2 ;
 }
 
 .text {
