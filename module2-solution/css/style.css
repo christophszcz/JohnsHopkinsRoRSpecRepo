@@ -64,3 +64,19 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+@media (max-width: 991px) {
+  .box {
+    width: 47%;
+  } 
+  .center-box{
+    float: right;
+  }
+  #sushi-box{
+    width: 99.4%;
+    margin-top: 20px;
+  }
+  .sushi {
+    width: 14%;
+  }
+}
