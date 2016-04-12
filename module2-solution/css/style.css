@@ -80,3 +80,19 @@ body {
     width: 14%;
   }
 }
+
+@media (max-width: 767px) {
+  .box {
+    width: 100%;
+  } 
+  .center-box{
+    float: left;
+  }
+  #sushi-box{
+    width: 100%;
+    margin-top: 0px;
+  }
+  .sushi {
+    width: 35%;
+  }
+}
