@@ -12,9 +12,10 @@
   font-size: 175%;
 }
 
-@font-face { 
-  font-family: Quicksand; 
-  src: local('Quicksand'), url('../fonts/Quicksand-Bold.otf'); /* non-IE */ 
+.box-title {
+  font-family: "Quicksand";
+  text-align: center;
+  color: #000;
 }
 
 #navbar-stretch {
@@ -25,4 +26,13 @@
 
 #container-mod {
   margin-left: initial; 
+}
+
+.box {
+  background-color: grey;
+}
+
+@font-face { 
+  font-family: Quicksand; 
+  src: local('Quicksand'), url('../fonts/Quicksand-Bold.otf'); /* non-IE */ 
 }
