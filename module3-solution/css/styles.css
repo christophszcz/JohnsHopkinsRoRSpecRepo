@@ -32,21 +32,39 @@ body {
   border: 3px solid;
 }
 
-#container-mod {
-  margin-left: initial; 
-}
-
 .box {
   background-color: #8c8c8c;
+}
+
+.chicken-box{
+  margin-right: 10px;
+}
+
+.beef-box {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.col-md-4 {
-  width: 31%;
+.sushi-box{
+  margin-left: 10px;
 }
 
-@media (max-width: 991px){
+.col-md-4 {
+  width: 32%;
+}
+
+@media (max-width: 1200px){
+  .col-sm-6 {
+    width: 48%;
+  }
+  .col-sm-12 {
+    width:98%;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 768px){
   .box {
     margin-left: 10px;
     margin-right: 10px;
@@ -55,4 +73,12 @@ body {
   .box-title {
     padding-top: 10px;
   }
-}
+   .col-sm-6 {
+    width: 97%;
+  }
+  .col-sm-12 {
+    width:96%;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+} 
