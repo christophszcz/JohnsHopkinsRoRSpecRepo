@@ -1,3 +1,12 @@
+body {
+  font-family: "Quicksand";
+}
+
+@font-face { 
+  font-family: Quicksand; 
+  src: local('Quicksand'), url('../fonts/Quicksand-Bold.otf'); /* non-IE */ 
+}
+
 #navbar-brand-text {
   font-family: "Quicksand";
   color: #000;
@@ -5,7 +14,6 @@
 }
 
 .main-title {
-  font-family: "Quicksand";
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -13,9 +21,9 @@
 }
 
 .box-title {
-  font-family: "Quicksand";
   text-align: center;
   color: #000;
+  font-size: 18px;
 }
 
 #navbar-stretch {
@@ -30,9 +38,10 @@
 
 .box {
   background-color: grey;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-@font-face { 
-  font-family: Quicksand; 
-  src: local('Quicksand'), url('../fonts/Quicksand-Bold.otf'); /* non-IE */ 
+.col-md-4 {
+  width: 31%;
 }
