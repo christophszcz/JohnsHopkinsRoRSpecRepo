@@ -27,7 +27,7 @@ body {
 }
 
 #navbar-stretch {
-  background-color: grey;
+  background-color: #8c8c8c;
   border-color: #000;
   border: 3px solid;
 }
@@ -37,11 +37,22 @@ body {
 }
 
 .box {
-  background-color: grey;
+  background-color: #8c8c8c;
   margin-left: 10px;
   margin-right: 10px;
 }
 
 .col-md-4 {
   width: 31%;
+}
+
+@media (max-width: 991px){
+  .box {
+    margin-left: 10px;
+    margin-right: 10px;
+    width:97%;
+  }
+  .box-title {
+    padding-top: 10px;
+  }
 }
