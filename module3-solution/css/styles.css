@@ -7,6 +7,27 @@ body {
   src: local('Quicksand'), url('../fonts/Quicksand-Bold.otf'); /* non-IE */ 
 }
 
+/* Navbar Button */
+
+.navbar-default .navbar-toggle {
+  border-color: #000;
+}
+
+.navbar-toggle {
+  border: 2px solid transparent;
+  padding: 7px 4px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+.navbar-toggle .icon-bar {
+  height:5px;
+  width: 32px;
+}
+/* Navbar Brand */
+
 #navbar-brand-text {
   font-family: "Quicksand";
   color: #000;
