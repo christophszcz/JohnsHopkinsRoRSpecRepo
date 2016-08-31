@@ -26,6 +26,16 @@ body {
   height:5px;
   width: 32px;
 }
+
+.navbar-toggle.visible­-xs:hover{
+  border-color: #fff;
+}
+
+.icon-bar:hover {
+  background-color: #fff;
+}
+
+ 
 /* Navbar Brand */
 
 #navbar-brand-text {
