@@ -1,3 +1,9 @@
+/* Entire Webpage */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Quicksand";
 }
