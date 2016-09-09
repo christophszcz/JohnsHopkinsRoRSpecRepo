@@ -108,7 +108,7 @@ body {
     width:97%;
   }
   .box-title {
-    padding-top: 10px;
+    padding-top: 20px;
   }
    .col-sm-6 {
     width: 97%;
@@ -117,5 +117,8 @@ body {
     width:96%;
     margin-top: 0px;
     margin-left: 10px;
+  }
+  .text{
+    padding: 15px;
   }
 } 
