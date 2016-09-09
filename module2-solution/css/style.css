@@ -26,12 +26,25 @@ body {
 
 
 .box{
+  width: 33.33%;
+  float: left;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+section{
   background-color: grey;
-  width: 32%;
-  float:left;
   border: 1px solid #000;
-  position: relative; 
-  /*margin-left: 10px;*/
+  width: 100%;
+  height: 200px;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+  overflow: auto;
 }
 
 .title-text {
@@ -77,14 +90,6 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
-}
-
-.center-box{
-  margin-left: 19px;
-}
-
-.right-box{
-  float:right;
 }
 
 /* Media Queries */
