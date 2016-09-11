@@ -122,3 +122,20 @@ body {
     padding: 15px;
   }
 } 
+
+/* Menu Items */
+
+#nav-list{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.menu-item{
+  text-align:center;
+  background-color: #fff;
+  margin-bottom:0px; 
+}
+
+.menu-space{
+  background-color: #fff;
+}
