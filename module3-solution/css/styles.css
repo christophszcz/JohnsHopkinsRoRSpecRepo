@@ -41,7 +41,6 @@ body {
   background-color: #fff;
 }
 
- 
 /* Navbar Brand */
 
 #navbar-brand-text {
@@ -139,4 +138,12 @@ body {
 
 .menu-space{
   background-color: #fff;
+}
+
+#collapse-nav{
+  border: 1px solid black;
+}
+
+.sushi-item {
+  border-bottom-width: 0px;
 }
