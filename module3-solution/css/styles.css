@@ -35,9 +35,10 @@ body {
 
 .navbar-toggle.visible­-xs:hover{
   border-color: #fff;
+  background-color: transparent;
 }
 
-.icon-bar:hover {
+.navbar-default .navbar-toggle .icon-bar: {
   background-color: #fff;
 }
 
@@ -140,10 +141,15 @@ body {
   background-color: #fff;
 }
 
-#collapse-nav{
-  border: 1px solid black;
-}
+/* Menu Items Media Queries */
 
-.sushi-item {
-  border-bottom-width: 0px;
+@media (max-width: 767px){
+  #collapse-nav{
+    border: 1px solid black;
+  }
+
+  .sushi-item {
+    border-bottom-width: 0px;
+  }
 }
+ 
