@@ -13,6 +13,33 @@ body {
   src: local('Quicksand'), url('../fonts/Quicksand-Bold.otf'); /* non-IE */ 
 }
 
+/* Navbar Brand */
+
+#navbar-brand-text {
+  font-family: "Quicksand";
+  color: #000;
+  font-size: 22px;
+}
+
+#main-title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 175%;
+}
+
+.box-title {
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+}
+
+#navbar-stretch {
+  background-color: #8c8c8c;
+  border-color: #000;
+  border: 3px solid;
+}
+
 /* Navbar Button */
 
 .navbar-default .navbar-toggle {
@@ -41,55 +68,6 @@ body {
 .navbar-default .navbar-toggle .icon-bar:focus {
   background-color: #fff;
 }
-
-/* Navbar Brand */
-
-#navbar-brand-text {
-  font-family: "Quicksand";
-  color: #000;
-  font-size: 22px;
-}
-
-#main-title {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  font-size: 175%;
-}
-
-.box-title {
-  text-align: center;
-  color: #000;
-  font-size: 18px;
-}
-
-#navbar-stretch {
-  background-color: #8c8c8c;
-  border-color: #000;
-  border: 3px solid;
-}
-
-/* Navbar Brand Media Queries */
-
-@media (max-width: 768px){
-  .box {
-    width:100%;
-  }
-  .box-title {
-    padding-top: 20px;
-  }
-   .col-sm-6 {
-    width: 97%;
-  }
-  .col-sm-12 {
-    width:96%;
-    margin-top: 0px;
-    margin-left: 10px;
-  }
-  .text{
-    padding: 15px;
-  }
-} 
 
 /* Menu Items */
 
@@ -137,6 +115,15 @@ body {
 
 @media (max-width: 991px){
   .box{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
+
+@media (max-width: 768px){
+  .box-title {
+    padding-top: 20px;
+  }
+  .text{
+    padding: 15px;
+  }
+} 
