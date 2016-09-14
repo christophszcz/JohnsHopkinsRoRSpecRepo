@@ -33,12 +33,12 @@ body {
   width: 32px;
 }
 
-.navbar-toggle.visible­-xs:hover{
+.navbar-toggle.visible­-xs:hover, .navbar-toggle.visible­-xs:focus{
   border-color: #fff;
   background-color: transparent;
 }
 
-.navbar-default .navbar-toggle .icon-bar: {
+.navbar-default .navbar-toggle .icon-bar:focus {
   background-color: #fff;
 }
 
@@ -67,27 +67,6 @@ body {
   background-color: #8c8c8c;
   border-color: #000;
   border: 3px solid;
-}
-
-.box {
-  background-color: #8c8c8c;
-}
-
-.chicken-box{
-  margin-right: 10px;
-}
-
-.beef-box {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.sushi-box{
-  margin-left: 10px;
-}
-
-.col-md-4 {
-  width: 32%;
 }
 
 /* Navbar Brand Media Queries */
@@ -156,4 +135,13 @@ body {
     border-bottom-width: 0px;
   }
 }
- 
+
+/* Main Seciton */
+
+.box {
+  background-color: #8c8c8c;
+  width:100%;
+  height: auto;
+  position:relative;
+  padding:10px;
+}
