@@ -116,6 +116,11 @@ body {
   top: -38px;
 }
 
+.bact-to-top{
+  position: relative;
+  top: -78px;
+}
+
 /* Main Section Media Queries */
 
 @media (max-width: 991px){
