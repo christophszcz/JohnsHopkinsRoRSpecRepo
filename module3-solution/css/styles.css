@@ -111,6 +111,11 @@ body {
   padding:10px;
 }
 
+.section-end {
+  position: relative;
+  top: -38px;
+}
+
 /* Main Section Media Queries */
 
 @media (max-width: 991px){
