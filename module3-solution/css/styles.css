@@ -111,16 +111,6 @@ body {
   padding:10px;
 }
 
-.section-end {
-  position: relative;
-  top: -38px;
-}
-
-.bact-to-top{
-  position: relative;
-  top: -78px;
-}
-
 /* Main Section Media Queries */
 
 @media (max-width: 991px){
@@ -134,6 +124,11 @@ body {
     padding-top: 20px;
   }
   .text{
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .back-to-top{
+    display: inline!important;
+    text-decoration: underline;
   }
 } 
