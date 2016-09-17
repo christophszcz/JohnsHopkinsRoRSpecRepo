@@ -123,10 +123,13 @@ body {
   .box-title {
     padding-top: 20px;
   }
+
   .text{
     padding-left: 15px;
     padding-right: 15px;
+    margin-bottom: 0px;
   }
+  
   .back-to-top{
     display: inline!important;
     text-decoration: underline;
