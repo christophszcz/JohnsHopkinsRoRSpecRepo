@@ -1,9 +1,5 @@
 /* Entire Webpage */
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Quicksand";
 }
@@ -95,6 +91,16 @@ body {
 
 .menu-space{
   background-color: #fff;
+}
+
+.links{
+  text-decoration: none;
+  color: #000;
+}
+
+.links:hover{
+  text-decoration: none;
+  color: #000;
 }
 
 /* Menu Items Media Queries */
