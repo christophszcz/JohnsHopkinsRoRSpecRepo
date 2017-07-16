@@ -57,11 +57,15 @@ body {
 }
 
 .white-border{
-  border-color: #fff !important ;
+  border-color: #fff !important;
 }
 
 .white-bar {
-  background-color: #fff !important ;
+  background-color: #fff !important;
+}
+
+.navbar-thinner {
+  border-bottom: 1px solid #000 !important;
 }
 
 .navbar-toggle.visible­-xs:hover, .navbar-toggle.visible­-xs:focus{
