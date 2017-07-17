@@ -43,7 +43,7 @@ body {
 }
 
 .navbar-toggle {
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   padding: 7px 4px;
 }
 
@@ -116,6 +116,10 @@ body {
 
   .sushi-item {
     border-bottom-width: 0px;
+  }
+
+  #navbar-brand-text{
+    margin-left: 20px;
   }
 }
 
