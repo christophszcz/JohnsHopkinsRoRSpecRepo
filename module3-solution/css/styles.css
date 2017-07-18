@@ -109,6 +109,12 @@ body {
 
 /* Menu Items Media Queries */
 
+@media(min-width: 768px){
+  .navbar-thinner {
+    border-bottom: 3px solid #000;
+  }
+}
+
 @media (max-width: 767px){
   #collapse-nav{
     border: 1px solid black;
