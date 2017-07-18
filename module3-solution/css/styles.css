@@ -64,8 +64,8 @@ body {
   background-color: #fff;
 }
 
-.navbar-thinner {
-  border-bottom: 1px solid #000 !important;
+nav#navbar-stretch.navbar.navbar-default.navbar-thinner {
+  border-bottom: 1px solid #000;
 }
 
 .navbar-toggle.visible­-xs:hover, .navbar-toggle.visible­-xs:focus{
