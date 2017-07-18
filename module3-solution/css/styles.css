@@ -56,12 +56,12 @@ body {
   width: 32px;
 }
 
-.white-border{
-  border-color: #fff !important;
+.navbar-toggle.visible­-xs.white-border{
+  border-color: #fff;
 }
 
-.white-bar {
-  background-color: #fff !important;
+.navbar-default .navbar-toggle .icon-bar.white-bar{
+  background-color: #fff;
 }
 
 .navbar-thinner {
