@@ -107,6 +107,10 @@ nav#navbar-stretch.navbar.navbar-default.navbar-thinner {
   color: #000;
 }
 
+.move-title{
+  margin-top: 0px !important;
+}
+
 /* Menu Items Media Queries */
 
 @media(min-width: 768px){
